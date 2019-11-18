@@ -1,0 +1,14 @@
+1.创建一对新的ssh密钥：
+  ssh-keygen -t rsa -C "XXX@XX.XX"
+2.Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): 
+  输入zzc_rsa,生成zzc_rsa文件
+3.输入密码：可输可不输（选择不输）
+4.在gitHub中添加生成的公钥
+5.测试连接
+    ssh -T git@github.com
+  error: git@github.com: Permission denied (publickey). 
+  无法连接github账号，
+  原因：默认读取的公钥的名称是id_rsa.pub
+  
+  
+单机连接多git账号，需要配置config
