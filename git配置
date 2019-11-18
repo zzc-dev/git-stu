@@ -12,3 +12,13 @@
   
   
 单机连接多git账号，需要配置config
+#gitlab
+host gitlab
+    HostName gitlab.ctsp.kedacom.com
+    IdentityFile C:/Users/zhangzongchang/.ssh/id_rsa
+
+# github
+Host github.com
+  HostName github.com
+  User zzc-dev
+  IdentityFile ~/.ssh/zzc
