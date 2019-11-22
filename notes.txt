@@ -1,4 +1,0 @@
-common-lang.StringUtils.capitalize(String str); //首字母大写
-
-@PostConstruct/@PreDestroy
-在初始化/销毁Bean之前执行的操作
