@@ -16,4 +16,15 @@ https://blog.csdn.net/z1941563559/article/details/80615691
 2. 重启ssh服务
   service sshd restart
 ```
+### 2.使用yum命令安装sz rz
+```
+   安装命令：yum install lrzsz
+   error： could not retrieve mirrorlist
+   解决： https://blog.csdn.net/why15732625998/article/details/80177978
+    本次只改了resolv.conf重新使用安装命令就不报错了
+    vi /etc/resolv.conf
+    
+    nameserver 8.8.8.8
+    search localdomain
+```
 
