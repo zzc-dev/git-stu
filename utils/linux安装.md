@@ -8,7 +8,8 @@ https://blog.csdn.net/z1941563559/article/details/80615691
 
 ![img](https://github.com/zzc-dev/git-stu/blob/master/images/nio/ip.png)
 
-### secureCRT连接服务器报错 Unable to authenticate
+# 开发环境配置
+### 1.secureCRT连接服务器报错 Unable to authenticate
 
 ```
 1. 修改/etc/ssh/sshd_config的PasswordAuthentication项为yes
